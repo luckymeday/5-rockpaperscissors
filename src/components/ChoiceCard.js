@@ -7,7 +7,7 @@ function ChoiceCard({ gameItem, handleGameItemChange }) {
       onClick={() => {
         handleGameItemChange(gameItem);
       }}
-      className="choice"
+      className="choices"
       src={url}
       alt={name}
     />
@@ -15,3 +15,5 @@ function ChoiceCard({ gameItem, handleGameItemChange }) {
 }
 
 export default ChoiceCard;
+
+// why const {url, name} here? should I make smaller card? or bigger frame?

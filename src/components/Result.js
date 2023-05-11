@@ -14,3 +14,5 @@ function Result({ result, user1GameItem, user2GameItem }) {
 }
 
 export default Result;
+
+// why put &&?

@@ -1,6 +1,6 @@
-export const getRandomGameItem = (gamesItems) => {
-  const index = Math.floor(Math.random() * gamesItems.length);
-  return gamesItems[index];
+export const getRandomGameItem = (gameItems) => {
+  const index = Math.floor(Math.random() * gameItems.length);
+  return gameItems[index];
 };
 
 export const calculatorUserWinner = (user1GameItem, user2GameItem) => {
@@ -8,3 +8,4 @@ export const calculatorUserWinner = (user1GameItem, user2GameItem) => {
   else if (user1GameItem.winItemIds.includes(user2GameItem.id)) return "Win";
   else return "Lost";
 };
+// why make extra js for this and utils folder
