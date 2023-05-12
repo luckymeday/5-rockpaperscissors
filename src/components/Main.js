@@ -48,7 +48,7 @@ export default function Main() {
       <div className="main">
         <Result
           user1GameItem={userGameItem}
-          user2GameItlem={computerGameItem}
+          user2GameItem={computerGameItem}
           result={result}
         />
         <Display />
